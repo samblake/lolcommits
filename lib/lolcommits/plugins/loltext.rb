@@ -54,7 +54,8 @@ module Lolcommits
     # do whatever is required to commit message to get it clean and ready for imagemagick
     def clean_msg(text)
       wrapped_text = word_wrap text
-      escape_quotes wrapped_text
+      value = escape_quotes wrapped_text
+      '"' + value.gsub( '\\', '\\\\' ).gsub( '"', '\\"' ) + '"'
     end
 
     # conversion for quotation marks to avoid shell interpretation
