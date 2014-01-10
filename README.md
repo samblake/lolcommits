@@ -3,7 +3,7 @@
 lolcommits takes a snapshot with your webcam every time you git commit code, and archives a lolcat style image with it.
 Git blame has never been so much fun.
 
-For full details see the [official github](https://github.com/mroth/lolcommits/)
+For full details see the [official github](https://github.com/mroth/lolcommits/).
 
 ## Installation
 
@@ -27,8 +27,7 @@ The following guide is for Ruby 1.9
 
 1. Download **ImageMagick**. I have this working with `ImageMagick-6.7.6-6-Q16-windows-dll.exe`. It can be found on google. Other versions may cause issues.
 2. Install to a path **without spaces**. E.g. `C:\ImageMagick`
-3. Make sure **Add application directory to your system path** and **Install development headers and libraries for C and C++** are checked:
-![ImageMagick installation](http://i.imgur.com/QlL7a.png)
+3. Make sure **Add application directory to your system path** and **Install development headers and libraries for C and C++** are checked.
 4. Close and reopen Command Prompt to reload your PATH variables (you can run `PATH` or `convert -v` to ensure ImageMagick is there)
 5. Run the following command (replacing the location of ImageMagick on your system if you opted for something different):
 ```
