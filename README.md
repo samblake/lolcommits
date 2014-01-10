@@ -3,7 +3,7 @@
 lolcommits takes a snapshot with your webcam every time you git commit code, and archives a lolcat style image with it.
 Git blame has never been so much fun.
 
-For full details see the [official github](https://github.com/mroth/lolcommits/).
+Modified for windows. For full details see the [official github](https://github.com/mroth/lolcommits/).
 
 ## Installation
 
